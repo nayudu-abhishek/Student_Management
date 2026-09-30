@@ -12,8 +12,11 @@ public class Repository<T>{
     public void remove(int id ){
         store.remove(id);
     }
-    public boolean Exits(int id){
+    public boolean exists(int id){
        return store.containsKey(id);
+    }
+    public Collection<T> getAll(){
+        return store.values();
     }
     public int size(){
         return store.size();
