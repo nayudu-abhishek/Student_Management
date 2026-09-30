@@ -32,20 +32,4 @@ public class ReportService {
         System.out.println("Fail"+passMark);
         partion.get(false).forEach((System.out::println));
     }
-//
-//    public static void main(String[] args) {
-//        List<Student> students = Arrays.asList(
-//                new Student(1,"John", 85),
-//                new Student(1,"Abhishek", 92),
-//                new Student(1,"Rahul", 67),
-//                new Student(1,"Priya", 45),
-//                new Student(1,"Sneha", 78)
-//        );
-//        System.out.println("----- TOP 3 STUDENTS -----");
-//        topScore(students, 3);
-//        System.out.println("\n----- AVERAGE MARKS -----");
-//        averageMarks(students,3);
-//        System.out.println("\n----- PASS / FAIL -----");
-//        passFailList(students, 50);
-//    }
 }
